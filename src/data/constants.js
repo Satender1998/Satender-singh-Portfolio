@@ -257,7 +257,7 @@ export const projects = [
       by deleting outdated or irrelevant property listings.
       `,
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFa1caELagXkwyGWhg1wAfgsfuEYaz7NO0jQ&usqp=CAU",
     tags: [
       "CI/CD",
       "React Js",
@@ -269,6 +269,34 @@ export const projects = [
     category: "web app",
     github: "https://github.com/Satender1998/Sale-Rent",
     webapp: "https://saleandrent.onrender.com",
+  },
+  {
+    id: 2,
+    title: "Real-Time Collaborative Whiteboard",
+    date: "Apr, 2024 - Apr 2024",
+    description:
+      `This is a real-time collaborative whiteboard application built using React, 
+      Node.js, Express, and Socket.IO. Users can create a new whiteboard session or 
+      join an existing one. The whiteboard supports drawing using different colors and 
+      brush sizes, with the ability to undo/redo the last action. Users can see the 
+      cursors of other connected users moving in real-time, indicating their drawing 
+      actions. Additionally, users can collaborate through live chat while drawing on the 
+      whiteboard.
+      `,
+    image:
+      "https://github.com/Satender1998/whiteboard-sharing/raw/master/ui/Screenshot%20(271).png",
+    tags: [
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Redux",
+      "HTML",
+      "CSS",
+    ],
+    category: "web app",
+    github: "https://github.com/Satender1998/whiteboard-sharing.git",
+    // webapp: "https://saleandrent.onrender.com",
   },
   {
     id: 1,
@@ -292,7 +320,7 @@ export const projects = [
       and instructors to provide feedback and suggestions,
       leading to ongoing enhancements`,
     image:
-      "",
+      "https://colorlib.com/wp/wp-content/uploads/sites/2/academia-free-template-353x278.jpg",
     tags: [
       "React Js",
     ],
