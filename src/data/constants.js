@@ -225,7 +225,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_xNlVtyo73q9A1X25hBw5oP1P3o5-3Zz8cw&s",
+    img: "https://www.vitra.ai/static/images/logo.svg",
     role: "Software Developer",
     company: "Vitra.ai",
     date: "July 2024 – Present",
