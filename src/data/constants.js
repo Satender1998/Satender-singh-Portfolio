@@ -7,8 +7,7 @@ export const Bio = {
   description:
     "Highly motivated individual with a strong work ethic and excellent public speaking skills. Passionate about technology and eager to learn new concepts and tools. Seeking a challenging Developer role to leverage my skills in both frontend and backend development to create dynamic and innovative web applications.",
   github: "https://github.com/Satender1998",
-  resume:
-    "https://github.com/Satender1998/Resume-/blob/main/Satender-Singh-FlowCV-Resume-20240412.pdf",
+  resume: "/Satender_Singh.pdf",
   linkedin: "https://www.linkedin.com/in/satendersingh1998/",
   twitter: "https://twitter.com/satendersingh_1",
   insta: "https://www.instagram.com/iamsatendersingh/",
@@ -41,12 +40,12 @@ export const skills = [
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
       },
       {
         name: "Bootstrap",
@@ -58,11 +57,21 @@ export const skills = [
         image:
           "data:image/png;base64,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",
       },
-      // {
-      //   name: "Flutter",
-      //   image:
-      //     "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
-      // },
+      {
+        name: "Angular",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg",
+      },
+      {
+        name: "Webpack",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/webpack/webpack-original.svg",
+      },
+      {
+        name: "Redux Thunk",
+        image:
+          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+      },
     ],
   },
   {
@@ -104,6 +113,31 @@ export const skills = [
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
+      {
+        name: "Nest.js",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-original.svg",
+      },
+      {
+        name: "FastAPI",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg",
+      },
+      {
+        name: "Django",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg",
+      },
+      {
+        name: "Redis",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg",
+      },
+      {
+        name: "REST API",
+        image:
+          "https://www.vectorlogo.zone/logos/json/json-icon.svg",
+      },
     ],
   },
   // {
@@ -137,7 +171,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
       },
       {
         name: "GitHub",
@@ -152,27 +186,37 @@ export const skills = [
       {
         name: "Netlify",
         image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+          "https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg",
       },
       {
         name: "VS Code",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
       },
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
-      },
-      {
-        name: "Adobe XD",
-        image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+          "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
       },
       {
         name: "Figma",
         image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+          "https://www.vectorlogo.zone/logos/figma/figma-icon.svg",
+      },
+      {
+        name: "JIRA",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/jira/jira-original.svg",
+      },
+      {
+        name: "Jenkins",
+        image:
+          "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg",
+      },
+      {
+        name: "Linux",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg",
       },
     ],
   },
@@ -181,30 +225,41 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_xNlVtyo73q9A1X25hBw5oP1P3o5-3Zz8cw&s",
+    role: "Software Developer",
+    company: "Vitra.ai",
+    date: "July 2024 – Present",
+    desc: `• Developed and maintained core features for short.video, a web-based video creation and editing platform, using Next.js, NestJS, and TypeScript.
+• Designed and integrated a custom authentication system for short.video, ensuring secure login, session handling, and role-based access.
+• Built scalable APIs using PostgreSQL with Sequelize ORM in NestJS, resolving caching issues across frontend and backend with optimized database queries and structured data fetching.
+• Integrated Redux Toolkit (RTK) on the frontend and built compatible, performant RESTful APIs on the backend for seamless state management and data sync.
+• Developed and optimized filtering APIs for both image and video assets, enabling advanced content filtering in the video editor.`,
+    skills: [
+      "Next.js",
+      "NestJS",
+      "TypeScript",
+      "PostgreSQL",
+      "Sequelize",
+      "Redux Toolkit",
+      "Redis",
+    ],
+  },
+  {
+    id: 1,
     img: "data:image/png;base64,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",
     role: "Application Development Associate",
     company: "Accenture",
-    date: "Aug 2023 - July 2023",
-    desc: `• Delivered comprehensive technical support to clients,
-    successfully handling an average of 50 inquiries per week
-    and maintaining an 80% issue resolution rate, ensuring
-    uninterrupted application operation. 
-    • Collaborated with diverse support teams at Accenture to
-    optimize processes, streamlining workflows and resulting in
-    a 20% reduction in response time, ultimately leading to a
-    12% increase in client satisfaction.
-    • Achieved a 25% increase in efficiency, which allowed us to
-    deliver high-quality technical support to clients and maintain
-    a 99% client satisfaction rating.
-    `,
+    date: "March 2022 – September 2022",
+    desc: `• Worked on development and support of enterprise-grade applications, contributing to feature enhancements, bug fixes, and performance improvements across production systems.
+• Debugged and resolved application-level issues through log analysis, code inspection, and database validation, maintaining an 80% issue resolution rate.
+• Assisted in backend data handling and API troubleshooting, ensuring reliable data flow between application layers and external systems.`,
     skills: [
-      "Docker",
       "JavaScript",
-      "TypeScript",
-      "Node Js",
-      " Next Js",
+      "Bug Fixing",
+      "Log Analysis",
+      "API Troubleshooting",
+      "Backend Data Handling",
     ],
-    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
 ];
 
@@ -230,6 +285,55 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 10,
+    title: "Short.video – AI-Powered Video Creation Platform",
+    date: "July 2024 – Present",
+    description:
+      `short.video is an AI-driven video creation and editing platform that empowers users to transform long-form content into short, engaging videos using intelligent automation tools.
+• Custom Authentication: Implemented a secure and scalable authentication system using JWT and session-based login.
+• AI Video Editing: Enabled automatic generation of short videos from long content using AI-powered scene detection and trimming.
+• Text-to-Video Automation: Integrated AI to generate video scenes from script inputs and support multilingual voiceovers via Text-to-Speech.
+• Reusable Components: Designed modular frontend components using Hero UI and custom logic for responsiveness and performance.
+• Backend APIs: Developed efficient REST APIs with NestJS and Sequelize; implemented filter APIs for images and videos.
+• State Management: Integrated Redux Toolkit for state synchronization with backend services and caching improvements.`,
+    image: "/shortvideo.png",
+    tags: [
+      "Next.js",
+      "NestJS",
+      "PostgreSQL",
+      "Sequelize",
+      "TypeScript",
+      "Redux Toolkit",
+      "Redis",
+      "Hero UI",
+      "FFmpeg"
+    ],
+    category: "web app",
+    github: "https://github.com/Satender1998",
+  },
+  {
+    id: 11,
+    title: "LithoAyas",
+    date: "September 2025",
+    description:
+      `• Built and deployed the complete LithoAyas web application and landing page, owning end-to-end development across frontend, backend, and system architecture.
+• Developed a scalable Next.js + TypeScript frontend and a NestJS backend, implementing secure APIs, real-time communication using WebSockets, and robust request validation with Zod.
+• Designed and optimized backend infrastructure using PostgreSQL, Sequelize ORM, Redis, and RabbitMQ, enabling efficient data handling, caching, and event-driven workflows.`,
+    image: "/lithoayas.jpg",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "NestJS",
+      "PostgreSQL",
+      "Sequelize",
+      "Redis",
+      "RabbitMQ",
+      "WebSockets"
+    ],
+    category: "web app",
+    github: "https://github.com/Satender1998",
+  },
   {
     id: 9,
     title: "Sale&Rent - Property Listing Platform",
